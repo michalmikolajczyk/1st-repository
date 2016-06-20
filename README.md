@@ -1,2 +1,3 @@
 # 1st-repository
-just repository
+It's just my first test repository.
+
