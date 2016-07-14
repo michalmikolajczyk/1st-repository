@@ -1,3 +1,15 @@
+.mc-layout__title.mc-layout__title {
+  font-weight: 600;
+}
+
+.mc-navigation.mc-navigation {
+  margin-left: auto;
+}
+
+.mc-grid {
+  max-width: 888px;
+}
+
 .portfolio-header {
   position: relative;
   background-image: url(images/header-bg.jpg);
