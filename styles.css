@@ -1,3 +1,11 @@
+main > section {
+  padding: 55px 0;
+}
+
+main > section:first-child {
+  padding: 0px;
+}
+
 .mc-layout__title.mc-layout__title {
   font-weight: 400;
 }
@@ -179,21 +187,9 @@ img.article-image {
   margin: auto;
 }
 
-footer {
-  background-image: url(images/footer-background.png);
-  background-size: cover;
-}
-
 .mc-logo {
   overflow: hidden;
   position: relative;
-  width: 100%;
-  margin: 34px 0;
-}
-
-.mc-sub-slogan {
-  font-size: 21px;
-  margin-bottom: 55px;
 }
 
 .mc-logo img {
@@ -201,20 +197,42 @@ footer {
   height: auto;
 }
 
+.mc-hero {
+  position: absolute;
+  top: 89px;
+  margin: 0 auto;
+  width: 100%;
+  color: white;
+  text-shadow: 0px 2px 3px rgba(0,0,0,1);
+}
+
+.mc-hero .mc-call-to-action {
+  margin-top: 89px;
+}
+
+.mc-slogan {
+  font-size: 55px;
+}
+
+.mc-sub-slogan {
+  font-size: 21px;
+  margin: 34px 0 55px;
+}
+
 .mc-icon-list {
   list-style: none;
   position: relative;
-  padding: 0 5%;
   margin: 0;
-  width: 90%;
+  width: 100%;
+  padding: 0;
 }
 
 .mc-icon-list li {
   width: 18%;
-  margin: 0 0.55%;
   color: black;
   display: inline-block;
-  height: 233px;
+  height: 89px;
+  margin: 0 0.81%;
 }
 
 .mc-icon-list li a {
@@ -228,23 +246,60 @@ footer {
 }
 
 .mc-icon-list .mc-below-icon {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
+}
+
+.mc-icon-list li a {
+  transition: ease .13s color;
 }
 
 .mc-icon-list li:hover a {
   color: rgb(255,64,129);
 }
 
-.mc-call-to-action {
-  margin: 89px 0 144px;
+.mc-services-icon-list li {
+  width: 89%;
+  margin: 0 5.5%;
+  height: 377px;
+}
+
+.mc-services-icon-list .mc-icon-title {
+  font-size: 21px;
+  line-height: 21px;
+  margin-top: 0px;
+}
+
+.mc-services-icon-list .mc-below-icon {
+  font-weight: 400;
+}
+
+.mc-section-grey {
+  background-color: #eee;
+}
+
+.mc-section__call-to-action p {
+  margin-bottom: 0;
 }
 
 .mc-call-to-action p {
   font-size: 21px;
 }
 
-.mc-learn-more .mc-learn-more-header {
+
+
+.mc-hero .mc-call-to-action p a {
+  font-size: 34px;
+  color: white;
+  font-weight: 600;
+  transition: ease .13s color;
+}
+
+.mc-hero .mc-call-to-action p a:hover {
+  color: rgb(255,64,129);
+}
+
+.mc-section__header {
   font-size: 21px;
   margin-bottom: 89px;
 }
