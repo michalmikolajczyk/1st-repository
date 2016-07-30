@@ -264,10 +264,24 @@ img.article-image {
   height: 377px;
 }
 
+.mc-services__title {
+  margin-bottom: 21px;
+}
+
+.mc-services__title > * {
+  display: inline;
+}
+
+.mc-services-icon-list .material-icons {
+  position: relative;
+  top: 5px;
+}
+
 .mc-services-icon-list .mc-icon-title {
   font-size: 21px;
-  line-height: 21px;
   margin-top: 0px;
+  padding-left: 13px;
+  line-height: 34px;
 }
 
 .mc-services-icon-list .mc-below-icon {
@@ -300,6 +314,6 @@ img.article-image {
 }
 
 .mc-section__header {
-  font-size: 21px;
-  margin-bottom: 89px;
+  font-size: 34px;
+  margin: 0 0 55px;
 }
